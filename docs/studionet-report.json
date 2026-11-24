@@ -1,0 +1,498 @@
+{
+  "project": "RemedyRail",
+  "network": "Studionet",
+  "chain_id": 61999,
+  "source_sha256": "d413d10c42e9524fbe82f462b6e7062bd51589c8b427448c60f4246fe2beafdb",
+  "actors": {
+    "provider": "0xa7DDB446cf77915E8A2d9621F8e238124B4485b2",
+    "customer": "0x394b47C6D4f32131bDbc766318a1478d023BaDa9",
+    "monitor": "0x16Ff372437A84Fb9693908b7A31d19884EF4F9a6"
+  },
+  "transactions": {
+    "deployment": {
+      "hash": "0x93f294647db522a7f86b4970ee3b3cd79ad52f2cdca60864c6092580c9f5be16",
+      "method": "deploy",
+      "role": "provider",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "execution_code": null,
+      "to": "0x537Ac87a6e3F9f205DAeA71d152eB6A31abAd698",
+      "explorer_url": "https://explorer-studio.genlayer.com/tx/0x93f294647db522a7f86b4970ee3b3cd79ad52f2cdca60864c6092580c9f5be16"
+    },
+    "terms_proposed": {
+      "hash": "0x97fc1391430697403b5e5516e39ca0ba07d0f64d6513f3b083c93d385e2fb690",
+      "method": "propose_agreement",
+      "role": "provider",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "execution_code": null,
+      "to": "0x537Ac87a6e3F9f205DAeA71d152eB6A31abAd698",
+      "explorer_url": "https://explorer-studio.genlayer.com/tx/0x97fc1391430697403b5e5516e39ca0ba07d0f64d6513f3b083c93d385e2fb690"
+    },
+    "terms_customer": {
+      "hash": "0x7420bfd5656eb8b66f57ea9daee5f940d1633230ac0a258a153a361823eeb315",
+      "method": "approve_agreement",
+      "role": "customer",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "execution_code": null,
+      "to": "0x537Ac87a6e3F9f205DAeA71d152eB6A31abAd698",
+      "explorer_url": "https://explorer-studio.genlayer.com/tx/0x7420bfd5656eb8b66f57ea9daee5f940d1633230ac0a258a153a361823eeb315"
+    },
+    "terms_monitor": {
+      "hash": "0x041d6025b6e57ad7457785d793041a101661bebe4d088d3a8b3b73405ed59320",
+      "method": "approve_agreement",
+      "role": "monitor",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "execution_code": null,
+      "to": "0x537Ac87a6e3F9f205DAeA71d152eB6A31abAd698",
+      "explorer_url": "https://explorer-studio.genlayer.com/tx/0x041d6025b6e57ad7457785d793041a101661bebe4d088d3a8b3b73405ed59320"
+    },
+    "case_filed": {
+      "hash": "0x4bd7a6e82a5371411daea70145a017b6840affac9379ea958f7ecd58ebbe930f",
+      "method": "file_case",
+      "role": "customer",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "execution_code": null,
+      "to": "0x537Ac87a6e3F9f205DAeA71d152eB6A31abAd698",
+      "explorer_url": "https://explorer-studio.genlayer.com/tx/0x4bd7a6e82a5371411daea70145a017b6840affac9379ea958f7ecd58ebbe930f"
+    },
+    "initial_provider": {
+      "hash": "0xa08937b3ce8271d1d65c7d773f10df94338a23c243777e3b37723949a00b09a4",
+      "method": "attest",
+      "role": "provider",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "execution_code": null,
+      "to": "0x537Ac87a6e3F9f205DAeA71d152eB6A31abAd698",
+      "explorer_url": "https://explorer-studio.genlayer.com/tx/0xa08937b3ce8271d1d65c7d773f10df94338a23c243777e3b37723949a00b09a4"
+    },
+    "initial_customer": {
+      "hash": "0xc2f74d05d37613c63bea2680667a225b3640ccfd45973191d64cb2a9931f2728",
+      "method": "attest",
+      "role": "customer",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "execution_code": null,
+      "to": "0x537Ac87a6e3F9f205DAeA71d152eB6A31abAd698",
+      "explorer_url": "https://explorer-studio.genlayer.com/tx/0xc2f74d05d37613c63bea2680667a225b3640ccfd45973191d64cb2a9931f2728"
+    },
+    "initial_monitor": {
+      "hash": "0x1126a05828d8875be33c352c32f779500f5c877f2703a13b9a9b35f5d1851fc5",
+      "method": "attest",
+      "role": "monitor",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "execution_code": null,
+      "to": "0x537Ac87a6e3F9f205DAeA71d152eB6A31abAd698",
+      "explorer_url": "https://explorer-studio.genlayer.com/tx/0x1126a05828d8875be33c352c32f779500f5c877f2703a13b9a9b35f5d1851fc5"
+    },
+    "initial_review": {
+      "hash": "0x1ea3513c131f55500c8aa5017677f40a588f7447cef15b074679318a48604328",
+      "method": "review_case",
+      "role": "customer",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "execution_code": null,
+      "to": "0x537Ac87a6e3F9f205DAeA71d152eB6A31abAd698",
+      "explorer_url": "https://explorer-studio.genlayer.com/tx/0x1ea3513c131f55500c8aa5017677f40a588f7447cef15b074679318a48604328"
+    },
+    "challenge": {
+      "hash": "0xe0af78d15256c61ede9557dc8f737dd9e9528c1c5855f83422bc83bbd70a29de",
+      "method": "challenge_case",
+      "role": "provider",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "execution_code": null,
+      "to": "0x537Ac87a6e3F9f205DAeA71d152eB6A31abAd698",
+      "explorer_url": "https://explorer-studio.genlayer.com/tx/0xe0af78d15256c61ede9557dc8f737dd9e9528c1c5855f83422bc83bbd70a29de"
+    },
+    "appeal_monitor": {
+      "hash": "0x0279fcc0873eff8b6a649183b2a32ff2a7802dcca53ee3b131392dc5452a9735",
+      "method": "attest",
+      "role": "monitor",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "execution_code": null,
+      "to": "0x537Ac87a6e3F9f205DAeA71d152eB6A31abAd698",
+      "explorer_url": "https://explorer-studio.genlayer.com/tx/0x0279fcc0873eff8b6a649183b2a32ff2a7802dcca53ee3b131392dc5452a9735"
+    },
+    "appeal_customer": {
+      "hash": "0xd45a50e15a15435a546e957513004199ac8c59eda613719f68fbfc8e589adf1f",
+      "method": "attest",
+      "role": "customer",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "execution_code": null,
+      "to": "0x537Ac87a6e3F9f205DAeA71d152eB6A31abAd698",
+      "explorer_url": "https://explorer-studio.genlayer.com/tx/0xd45a50e15a15435a546e957513004199ac8c59eda613719f68fbfc8e589adf1f"
+    },
+    "appeal_review": {
+      "hash": "0xea05bb7bd0b7a04cfe55d3d956dc00e9c68c72e8bbc8ef8efee176824778bb3f",
+      "method": "review_case",
+      "role": "customer",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "execution_code": null,
+      "to": "0x537Ac87a6e3F9f205DAeA71d152eB6A31abAd698",
+      "explorer_url": "https://explorer-studio.genlayer.com/tx/0xea05bb7bd0b7a04cfe55d3d956dc00e9c68c72e8bbc8ef8efee176824778bb3f"
+    },
+    "settlement": {
+      "hash": "0x53ab80a5896145325f1078b8f335acdb1232b3d60a2f204abc87392f674272c6",
+      "method": "finalize_case",
+      "role": "customer",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "execution_code": null,
+      "to": "0x537Ac87a6e3F9f205DAeA71d152eB6A31abAd698",
+      "explorer_url": "https://explorer-studio.genlayer.com/tx/0x53ab80a5896145325f1078b8f335acdb1232b3d60a2f204abc87392f674272c6"
+    },
+    "memo_applied": {
+      "hash": "0x36080650847a8e5fa956576cb57001fd550bca6899d8347cb35b8d215e13c80f",
+      "method": "record_application",
+      "role": "provider",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "execution_code": null,
+      "to": "0x537Ac87a6e3F9f205DAeA71d152eB6A31abAd698",
+      "explorer_url": "https://explorer-studio.genlayer.com/tx/0x36080650847a8e5fa956576cb57001fd550bca6899d8347cb35b8d215e13c80f"
+    },
+    "memo_acknowledged": {
+      "hash": "0x8be2f7f7866f433d8bb096f0b7eb255d28d17ad58717e1ecee0475ed68192e84",
+      "method": "acknowledge_application",
+      "role": "customer",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "execution_code": null,
+      "to": "0x537Ac87a6e3F9f205DAeA71d152eB6A31abAd698",
+      "explorer_url": "https://explorer-studio.genlayer.com/tx/0x8be2f7f7866f433d8bb096f0b7eb255d28d17ad58717e1ecee0475ed68192e84"
+    }
+  },
+  "scenario_is_synthetic": true,
+  "scenario_start": 29920306,
+  "contract_address": "0x537Ac87a6e3F9f205DAeA71d152eB6A31abAd698",
+  "explorer_url": "https://explorer-studio.genlayer.com/address/0x537Ac87a6e3F9f205DAeA71d152eB6A31abAd698",
+  "onchain_source_sha256": "d413d10c42e9524fbe82f462b6e7062bd51589c8b427448c60f4246fe2beafdb",
+  "source_matches_onchain": true,
+  "scenario_status": "passed",
+  "agreement_id": "nimbus-pilot",
+  "case_id": "nimbus-pilot-01",
+  "first_eligible_minutes": 90,
+  "final_eligible_minutes": 60,
+  "credit_minor": 40000,
+  "currency": "USD",
+  "agreement": {
+    "activated_at": 29920487,
+    "approvals": {
+      "customer": 29920487,
+      "monitor": 29920487,
+      "provider": 29920486
+    },
+    "case_ids": [
+      "nimbus-pilot-01"
+    ],
+    "created_at": 29920486,
+    "id": "nimbus-pilot",
+    "ledger": {
+      "covered": [
+        [
+          29920306,
+          29920366
+        ]
+      ],
+      "credit_minor": 40000,
+      "head": "4656b194ce1bf61e0d111b47cd74ed810c29b825ab0b7e152c6ba3362c8c376a",
+      "sequence": 1,
+      "total_minutes": 60
+    },
+    "terms": {
+      "bands": [
+        [
+          15,
+          500
+        ],
+        [
+          60,
+          1000
+        ],
+        [
+          120,
+          2500
+        ]
+      ],
+      "challenge_minutes": 25,
+      "collect_minutes": 25,
+      "currency": "USD",
+      "customer": "0x394b47c6d4f32131bdbc766318a1478d023bada9",
+      "file_by": 29933266,
+      "invoice_line": "NIMBUS-PILOT-01",
+      "invoice_minor": 400000,
+      "monitor": "0x16ff372437a84fb9693908b7a31d19884ef4f9a6",
+      "period_end": 29930386,
+      "period_start": 29918866,
+      "provider": "0xa7ddb446cf77915e8a2d9621f8e238124b4485b2",
+      "region": "EU West",
+      "service": "Nimbus API",
+      "title": "Nimbus API pilot"
+    },
+    "terms_hash": "46e5350fa795f592224cb4b8f07f43a317b43c5cefed5a9e6702122f9c910f46"
+  },
+  "cases": [
+    {
+      "agreement_id": "nimbus-pilot",
+      "application": {
+        "acknowledged_at": 29920495,
+        "recorded_at": 29920495,
+        "reference": "NIMBUS-CN-001"
+      },
+      "challenge": {
+        "author": "0xa7ddb446cf77915e8a2d9621f8e238124b4485b2",
+        "new_evidence_id": "e4",
+        "opened_at": 29920491,
+        "prior_finding_hash": "55b5d9aaa97b80f4c7ca6c510f5e71693d67c3ab7ca6ffea18e5a4b26c34e347",
+        "reason": "A second telemetry review established earlier recovery.",
+        "role": "provider"
+      },
+      "challenge_until": 29920515,
+      "collect_until": 29920516,
+      "end": 29920396,
+      "evidence": [
+        {
+          "added_at": 29920489,
+          "author": "0xa7ddb446cf77915e8a2d9621f8e238124b4485b2",
+          "body": "Provider incident report. Nimbus API in EU West was completely unavailable, with no successful requests from 2026-11-20 23:46 UTC to 2026-11-21 01:16 UTC.",
+          "case_id": "nimbus-pilot-01",
+          "end": 29920396,
+          "fingerprint": "77c44fb0d1ee635f30a98f36e2a0992597c5c320aa68959eb433369c6079b59a",
+          "hash": "4ae4159b4fb9e9c113274e66fd7187c8ad7515383929ce7cca538e80570342e0",
+          "id": "e1",
+          "reference": "",
+          "role": "provider",
+          "round": 1,
+          "start": 29920306
+        },
+        {
+          "added_at": 29920489,
+          "author": "0x394b47c6d4f32131bdbc766318a1478d023bada9",
+          "body": "Customer incident report. Nimbus API in EU West was completely unavailable, with no successful requests from 2026-11-20 23:46 UTC to 2026-11-21 01:16 UTC.",
+          "case_id": "nimbus-pilot-01",
+          "end": 29920396,
+          "fingerprint": "44820bfa76429cfc713b87ca53b89302820e5139a801bb0f7e641839d5b19793",
+          "hash": "d1f97730559fe5d97dcc0fedbcaedb42d03b2b72a4881bc1adb09ce08dad098c",
+          "id": "e2",
+          "reference": "",
+          "role": "customer",
+          "round": 1,
+          "start": 29920306
+        },
+        {
+          "added_at": 29920490,
+          "author": "0x16ff372437a84fb9693908b7a31d19884ef4f9a6",
+          "body": "Monitor incident report. Nimbus API in EU West was completely unavailable, with no successful requests from 2026-11-20 23:46 UTC to 2026-11-21 01:16 UTC.",
+          "case_id": "nimbus-pilot-01",
+          "end": 29920396,
+          "fingerprint": "55a7f7c6e93421a2f0e0cb77fbc4895f5acb4fdc26ff187ac6056c60e105fd5e",
+          "hash": "59653ac481ff3a70806b4b493e51cc93b970c5da8d3953b451c481cb81af59e2",
+          "id": "e3",
+          "reference": "",
+          "role": "monitor",
+          "round": 1,
+          "start": 29920306
+        },
+        {
+          "added_at": 29920491,
+          "author": "0xa7ddb446cf77915e8a2d9621f8e238124b4485b2",
+          "body": "Provider correction. Nimbus API in EU West remained fully available, with successful requests throughout from 2026-11-21 00:46 UTC to 2026-11-21 01:16 UTC.",
+          "case_id": "nimbus-pilot-01",
+          "end": 29920396,
+          "fingerprint": "da7e77509a1744d6e2979b366bbb8348cde12b3bca96eded6bd05f5ae3f6a66c",
+          "hash": "d0c8c81852bccb88476dca67d7f069d0351b82b06075fed8e28d90c57ddbe532",
+          "id": "e4",
+          "reference": "",
+          "role": "provider",
+          "round": 2,
+          "start": 29920366
+        },
+        {
+          "added_at": 29920492,
+          "author": "0x16ff372437a84fb9693908b7a31d19884ef4f9a6",
+          "body": "Monitor independent recheck. Nimbus API in EU West remained fully available, with successful requests throughout from 2026-11-21 00:46 UTC to 2026-11-21 01:16 UTC.",
+          "case_id": "nimbus-pilot-01",
+          "end": 29920396,
+          "fingerprint": "7c0f1750b2938206e653ef785e993e1506963a9ced27b38ce2a30efb66795113",
+          "hash": "bc3eba7de1a0fed494d6c63bf68b36491a822004ded4a807462eacca98a886fe",
+          "id": "e5",
+          "reference": "",
+          "role": "monitor",
+          "round": 2,
+          "start": 29920366
+        },
+        {
+          "added_at": 29920493,
+          "author": "0x394b47c6d4f32131bdbc766318a1478d023bada9",
+          "body": "Customer reconciled log. Nimbus API in EU West was completely unavailable, with no successful requests from 2026-11-20 23:46 UTC to 2026-11-21 00:46 UTC.",
+          "case_id": "nimbus-pilot-01",
+          "end": 29920366,
+          "fingerprint": "74fe57ebe392a81e4d502e5daf73c2b3b44b8021c0b6d76843e8195feecd9c23",
+          "hash": "18fee22a9969931ca826257546ffe282875b609e4b70d2a65156d954386af188",
+          "id": "e6",
+          "reference": "",
+          "role": "customer",
+          "round": 2,
+          "start": 29920306
+        }
+      ],
+      "filed_at": 29920488,
+      "findings": [
+        {
+          "availability": [],
+          "case_id": "nimbus-pilot-01",
+          "conflicts": [],
+          "eligible": [
+            [
+              29920306,
+              29920396
+            ]
+          ],
+          "eligible_minutes": 90,
+          "evidence_hashes": [
+            "4ae4159b4fb9e9c113274e66fd7187c8ad7515383929ce7cca538e80570342e0",
+            "d1f97730559fe5d97dcc0fedbcaedb42d03b2b72a4881bc1adb09ce08dad098c",
+            "59653ac481ff3a70806b4b493e51cc93b970c5da8d3953b451c481cb81af59e2"
+          ],
+          "hash": "55b5d9aaa97b80f4c7ca6c510f5e71693d67c3ab7ca6ffea18e5a4b26c34e347",
+          "labels": [
+            {
+              "id": "e1",
+              "quote": "Nimbus API in EU West was completely unavailable, with no successful requests from 2026-11-20 23:46 UTC to 2026-11-21 01:16 UTC.",
+              "status": "OUTAGE"
+            },
+            {
+              "id": "e2",
+              "quote": "Nimbus API in EU West was completely unavailable, with no successful requests from 2026-11-20 23:46 UTC to 2026-11-21 01:16 UTC.",
+              "status": "OUTAGE"
+            },
+            {
+              "id": "e3",
+              "quote": "Nimbus API in EU West was completely unavailable, with no successful requests from 2026-11-20 23:46 UTC to 2026-11-21 01:16 UTC.",
+              "status": "OUTAGE"
+            }
+          ],
+          "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "reviewed_at": 29920490,
+          "round": 1,
+          "verdict": "SUPPORTED"
+        },
+        {
+          "availability": [
+            [
+              29920366,
+              29920396
+            ]
+          ],
+          "case_id": "nimbus-pilot-01",
+          "conflicts": [
+            [
+              29920366,
+              29920396
+            ]
+          ],
+          "eligible": [
+            [
+              29920306,
+              29920366
+            ]
+          ],
+          "eligible_minutes": 60,
+          "evidence_hashes": [
+            "4ae4159b4fb9e9c113274e66fd7187c8ad7515383929ce7cca538e80570342e0",
+            "d1f97730559fe5d97dcc0fedbcaedb42d03b2b72a4881bc1adb09ce08dad098c",
+            "59653ac481ff3a70806b4b493e51cc93b970c5da8d3953b451c481cb81af59e2",
+            "d0c8c81852bccb88476dca67d7f069d0351b82b06075fed8e28d90c57ddbe532",
+            "bc3eba7de1a0fed494d6c63bf68b36491a822004ded4a807462eacca98a886fe",
+            "18fee22a9969931ca826257546ffe282875b609e4b70d2a65156d954386af188"
+          ],
+          "hash": "8e5b5cde3dc3291b69aff6bad4d8fac98bbbe791910ee3f73cc6cb580a48cdde",
+          "labels": [
+            {
+              "id": "e1",
+              "quote": "Nimbus API in EU West was completely unavailable, with no successful requests from 2026-11-20 23:46 UTC to 2026-11-21 01:16 UTC.",
+              "status": "OUTAGE"
+            },
+            {
+              "id": "e2",
+              "quote": "Nimbus API in EU West was completely unavailable, with no successful requests from 2026-11-20 23:46 UTC to 2026-11-21 01:16 UTC.",
+              "status": "OUTAGE"
+            },
+            {
+              "id": "e3",
+              "quote": "Nimbus API in EU West was completely unavailable, with no successful requests from 2026-11-20 23:46 UTC to 2026-11-21 01:16 UTC.",
+              "status": "OUTAGE"
+            },
+            {
+              "id": "e4",
+              "quote": "Nimbus API in EU West remained fully available, with successful requests throughout from 2026-11-21 00:46 UTC to 2026-11-21 01:16 UTC.",
+              "status": "AVAILABLE"
+            },
+            {
+              "id": "e5",
+              "quote": "Nimbus API in EU West remained fully available, with successful requests throughout from 2026-11-21 00:46 UTC to 2026-11-21 01:16 UTC.",
+              "status": "AVAILABLE"
+            },
+            {
+              "id": "e6",
+              "quote": "Nimbus API in EU West was completely unavailable, with no successful requests from 2026-11-20 23:46 UTC to 2026-11-21 00:46 UTC.",
+              "status": "OUTAGE"
+            }
+          ],
+          "previous_hash": "55b5d9aaa97b80f4c7ca6c510f5e71693d67c3ab7ca6ffea18e5a4b26c34e347",
+          "reviewed_at": 29920493,
+          "round": 2,
+          "verdict": "PARTIAL"
+        }
+      ],
+      "id": "nimbus-pilot-01",
+      "settlement": {
+        "band_bps": 1000,
+        "case_id": "nimbus-pilot-01",
+        "credit_minor": 40000,
+        "cumulative_minor": 40000,
+        "finalized_at": 29920494,
+        "finding_hash": "8e5b5cde3dc3291b69aff6bad4d8fac98bbbe791910ee3f73cc6cb580a48cdde",
+        "hash": "4656b194ce1bf61e0d111b47cd74ed810c29b825ab0b7e152c6ba3362c8c376a",
+        "new_windows": [
+          [
+            29920306,
+            29920366
+          ]
+        ],
+        "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "sequence": 1,
+        "terms_hash": "46e5350fa795f592224cb4b8f07f43a317b43c5cefed5a9e6702122f9c910f46",
+        "total_minutes": 60
+      },
+      "stage": "finalized",
+      "start": 29920306,
+      "title": "EU West API interruption"
+    }
+  ],
+  "finalized_transactions": 16
+}

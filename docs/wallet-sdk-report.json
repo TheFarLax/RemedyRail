@@ -1,0 +1,15 @@
+{
+  "status": "PASSED",
+  "contract": "0x537Ac87a6e3F9f205DAeA71d152eB6A31abAd698",
+  "agreement_id": "wallet-smoke-e9a4e44c",
+  "wallet": "0xa7DDB446cf77915E8A2d9621F8e238124B4485b2",
+  "submitted_hash": "0xe9dbbf2843b7f1d3d27be591063d67a1c827b5d648aa5a2dc64a0e4ad5ad3259",
+  "finalized_hash": "0xe9dbbf2843b7f1d3d27be591063d67a1c827b5d648aa5a2dc64a0e4ad5ad3259",
+  "explorer_url": "https://explorer-studio.genlayer.com/tx/0xe9dbbf2843b7f1d3d27be591063d67a1c827b5d648aa5a2dc64a0e4ad5ad3259",
+  "provider_methods": [
+    "eth_chainId",
+    "eth_accounts",
+    "eth_sendTransaction"
+  ],
+  "scope": "Scripted EIP-1193 signer using a disposable Studionet key."
+}
